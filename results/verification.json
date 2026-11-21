@@ -1,0 +1,12 @@
+{
+  "Skirtingi vairuotojai mokymui ir testui": true,
+  "Visos 600 kelionių panaudotos vieną kartą": true,
+  "Išsaugotas modelis ir CSV analizė veikia": true,
+  "Trumpi jutiklių tarpai užpildyti": true,
+  "Be degalų srauto sąnaudos neišgalvojamos": true,
+  "Ilga duomenų spraga atmetama": true,
+  "Pasikartojantis laikas atmetamas": true,
+  "Trūkstamas privalomas laukas atmetamas": true,
+  "Suveikia keturios įvykių rekomendacijos": true,
+  "Kai įvykių nėra pateikiamas stebėjimo patarimas": true
+}

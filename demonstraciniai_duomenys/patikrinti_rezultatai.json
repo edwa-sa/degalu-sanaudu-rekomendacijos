@@ -1,0 +1,251 @@
+{
+  "synthetic": true,
+  "valid_examples": [
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 3.814856839861111,
+      "fuel_l": 0.20739052625,
+      "l100": 5.436390799334703,
+      "features": {
+        "mean_speed": 45.92398412,
+        "speed_std": 3.326190368190689,
+        "mean_abs_acc": 0.03016399722222223,
+        "acc_p95": 0.04565177777777634,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.0,
+        "rpm_mean": 1878.04376665,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.0,
+        "load_mean": 25.19443371
+      },
+      "recommendations": [
+        {
+          "code": "stebejimas",
+          "text": "Ryškių pasirinktų požymių nerasta. Tęskite stebėjimą ir laikykitės techninės priežiūros rekomendacijų."
+        }
+      ],
+      "file": "01_tolygus_vaziavimas.csv",
+      "description": "Tolygus važiavimas be ryškių pasirinktų įvykių.",
+      "synthetic": true
+    },
+    {
+      "style": 1,
+      "summary": "Įraše atpažinta daugiau intensyvaus vairavimo požymių.",
+      "distance_km": 4.611111111111111,
+      "fuel_l": 0.25915055555555555,
+      "l100": 5.6201325301204825,
+      "features": {
+        "mean_speed": 55.4,
+        "speed_std": 21.16890060108988,
+        "mean_abs_acc": 0.6666666666666666,
+        "acc_p95": 2.5,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.13333333333333333,
+        "rpm_mean": 1992.4,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.0,
+        "load_mean": 29.666666666666668
+      },
+      "recommendations": [
+        {
+          "code": "greitejimas",
+          "text": "Dažnai staigiai greitėjama. Kai sąlygos leidžia, greitėkite tolygiau."
+        }
+      ],
+      "file": "02_staigus_greitejimas.csv",
+      "description": "Kartojami staigaus greitėjimo epizodai; lėtėjama palaipsniui.",
+      "synthetic": true
+    },
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 4.161111111111111,
+      "fuel_l": 0.23716283888888887,
+      "l100": 5.699507476635513,
+      "features": {
+        "mean_speed": 50.0,
+        "speed_std": 20.54829814149162,
+        "mean_abs_acc": 0.5555555555555556,
+        "acc_p95": 0.38759694444444537,
+        "brake_share": 0.08333333333333333,
+        "fast_acc_share": 0.0,
+        "rpm_mean": 1950.0,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.0,
+        "load_mean": 28.88888918333333
+      },
+      "recommendations": [
+        {
+          "code": "stabdymas",
+          "text": "Pastebėtas dažnas staigus lėtėjimas. Stebėkite eismą iš anksto ir palaikykite saugų atstumą."
+        }
+      ],
+      "file": "03_staigus_stabdymas.csv",
+      "description": "Greitėjama palaipsniui, periodiškai staigiai lėtėjama.",
+      "synthetic": true
+    },
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 3.814856839861111,
+      "fuel_l": 0.23230719291666668,
+      "l100": 6.0895389438814265,
+      "features": {
+        "mean_speed": 45.92398412,
+        "speed_std": 3.326190368190689,
+        "mean_abs_acc": 0.03016399722222223,
+        "acc_p95": 0.04565177777777634,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.0,
+        "rpm_mean": 3500.0,
+        "high_rpm_share": 1.0,
+        "idle_share": 0.0,
+        "load_mean": 25.19443371
+      },
+      "recommendations": [
+        {
+          "code": "sukiai",
+          "text": "Dažnai išlaikomi aukšti sūkiai esant nedidelei apkrovai. Įvertinkite pavaros pasirinkimą pagal automobilio instrukciją; nevažiuokite per žemais sūkiais."
+        }
+      ],
+      "file": "04_auksti_sukiai.csv",
+      "description": "Tolygus greitis, bet aukšti sūkiai esant nedidelei apkrovai.",
+      "synthetic": true
+    },
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 1.8777777777777778,
+      "fuel_l": 0.13125771666666666,
+      "l100": 6.990055917159763,
+      "features": {
+        "mean_speed": 22.666666666666668,
+        "speed_std": 18.905613510865557,
+        "mean_abs_acc": 0.07407407407407407,
+        "acc_p95": 0.5555555555555556,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.0,
+        "rpm_mean": 1446.6666666666667,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.37,
+        "load_mean": 25.518518533333335
+      },
+      "recommendations": [
+        {
+          "code": "stovejimas",
+          "text": "Nemaža įrašo dalis praleista stovint su veikiančiu varikliu. Venkite nereikalingo stovėjimo, kai saugu ir leidžia automobilio instrukcija."
+        }
+      ],
+      "file": "05_ilgas_stovejimas.csv",
+      "description": "Ilgesnis stovėjimas su veikiančiu varikliu; perėjimai tolygūs.",
+      "synthetic": true
+    },
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 3.5105555555555554,
+      "fuel_l": 0.22970617305555555,
+      "l100": 6.543299754708023,
+      "features": {
+        "mean_speed": 42.160000000000004,
+        "speed_std": 28.254917513030907,
+        "mean_abs_acc": 0.5074074074074074,
+        "acc_p95": 2.5,
+        "brake_share": 0.03333333333333333,
+        "fast_acc_share": 0.056666666666666664,
+        "rpm_mean": 2960.0,
+        "high_rpm_share": 0.7433333333333333,
+        "idle_share": 0.2,
+        "load_mean": 28.638889006666663
+      },
+      "recommendations": [
+        {
+          "code": "greitejimas",
+          "text": "Dažnai staigiai greitėjama. Kai sąlygos leidžia, greitėkite tolygiau."
+        },
+        {
+          "code": "stabdymas",
+          "text": "Pastebėtas dažnas staigus lėtėjimas. Stebėkite eismą iš anksto ir palaikykite saugų atstumą."
+        },
+        {
+          "code": "sukiai",
+          "text": "Dažnai išlaikomi aukšti sūkiai esant nedidelei apkrovai. Įvertinkite pavaros pasirinkimą pagal automobilio instrukciją; nevažiuokite per žemais sūkiais."
+        },
+        {
+          "code": "stovejimas",
+          "text": "Nemaža įrašo dalis praleista stovint su veikiančiu varikliu. Venkite nereikalingo stovėjimo, kai saugu ir leidžia automobilio instrukcija."
+        }
+      ],
+      "file": "06_misrus_vaziavimas.csv",
+      "description": "Keli skirtingi įvykiai viename įraše.",
+      "synthetic": true
+    },
+    {
+      "style": 0,
+      "summary": "Įrašas labiau panašus į tolygaus vairavimo pavyzdžius.",
+      "distance_km": 3.814856839861111,
+      "fuel_l": null,
+      "l100": null,
+      "features": {
+        "mean_speed": 45.92398412,
+        "speed_std": 3.326190368190689,
+        "mean_abs_acc": 0.03016399722222223,
+        "acc_p95": 0.04565177777777634,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.0,
+        "rpm_mean": 1878.04376665,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.0,
+        "load_mean": 25.19443371
+      },
+      "recommendations": [
+        {
+          "code": "stebejimas",
+          "text": "Ryškių pasirinktų požymių nerasta. Tęskite stebėjimą ir laikykitės techninės priežiūros rekomendacijų."
+        }
+      ],
+      "file": "07_be_degalu_srauto.csv",
+      "description": "Tinkami signalai, bet degalų srautas nepateiktas: sąnaudos nerodomos.",
+      "synthetic": true
+    },
+    {
+      "style": 1,
+      "summary": "Įraše atpažinta daugiau intensyvaus vairavimo požymių.",
+      "distance_km": 4.611111111111111,
+      "fuel_l": 0.25915055555555555,
+      "l100": 5.6201325301204825,
+      "features": {
+        "mean_speed": 55.4,
+        "speed_std": 21.168900601163987,
+        "mean_abs_acc": 0.6666666666666666,
+        "acc_p95": 2.5,
+        "brake_share": 0.0,
+        "fast_acc_share": 0.13333333333333333,
+        "rpm_mean": 1992.4,
+        "high_rpm_share": 0.0,
+        "idle_share": 0.0,
+        "load_mean": 29.666666666666668
+      },
+      "recommendations": [
+        {
+          "code": "greitejimas",
+          "text": "Dažnai staigiai greitėjama. Kai sąlygos leidžia, greitėkite tolygiau."
+        }
+      ],
+      "file": "08_trumpos_jutikliu_spragos.csv",
+      "description": "Dvi trumpos vidinės spragos: programa jas užpildo.",
+      "synthetic": true
+    }
+  ],
+  "invalid_examples": [
+    {
+      "file": "klaidu_pavyzdziai\\09_per_ilga_spraga.csv",
+      "expected_error": "Ilgesnė nei 2 s spraga: speed_kmh"
+    },
+    {
+      "file": "klaidu_pavyzdziai\\10_pasikartojantis_laikas.csv",
+      "expected_error": "Netinkamos arba pasikartojančios laiko žymos."
+    }
+  ]
+}

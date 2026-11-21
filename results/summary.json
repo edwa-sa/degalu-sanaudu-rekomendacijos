@@ -1,0 +1,22 @@
+{
+  "raw_rows": 108000,
+  "trips": 600,
+  "drivers": 60,
+  "train_trips": 480,
+  "test_trips": 120,
+  "train_drivers": 48,
+  "test_drivers": 12,
+  "missing_cells": 1200,
+  "classes": {
+    "0": 300,
+    "1": 300
+  },
+  "test_classes": {
+    "0": 70,
+    "1": 50
+  },
+  "chosen": "Logistinė regresija",
+  "python": "3.12.14",
+  "sklearn": "1.9.1",
+  "seed": 42
+}

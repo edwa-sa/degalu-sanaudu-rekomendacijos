@@ -1,0 +1,9 @@
+﻿failas,trukme_s,eiluciu,modelio_klase,patarimu_kodai,sanaudos_l100,aprasymas
+01_tolygus_vaziavimas.csv,299,300,0,stebejimas,5.436390799334703,Tolygus važiavimas be ryškių pasirinktų įvykių.
+02_staigus_greitejimas.csv,299,300,1,greitejimas,5.6201325301204825,Kartojami staigaus greitėjimo epizodai; lėtėjama palaipsniui.
+03_staigus_stabdymas.csv,299,300,0,stabdymas,5.699507476635513,"Greitėjama palaipsniui, periodiškai staigiai lėtėjama."
+04_auksti_sukiai.csv,299,300,0,sukiai,6.0895389438814265,"Tolygus greitis, bet aukšti sūkiai esant nedidelei apkrovai."
+05_ilgas_stovejimas.csv,299,300,0,stovejimas,6.990055917159763,Ilgesnis stovėjimas su veikiančiu varikliu; perėjimai tolygūs.
+06_misrus_vaziavimas.csv,299,300,0,greitejimas; stabdymas; stovejimas; sukiai,6.543299754708023,Keli skirtingi įvykiai viename įraše.
+07_be_degalu_srauto.csv,299,300,0,stebejimas,,"Tinkami signalai, bet degalų srautas nepateiktas: sąnaudos nerodomos."
+08_trumpos_jutikliu_spragos.csv,299,300,1,greitejimas,5.6201325301204825,Dvi trumpos vidinės spragos: programa jas užpildo.

@@ -1,0 +1,68 @@
+﻿DEMONSTRACINIAI DUOMENYS
+
+VISI šie failai yra specialiai sukurti sintetiniai pavyzdžiai. Tai ne realūs OBD matavimai.
+Jie skirti veikimo ir rekomendacijų taisyklių demonstracijai, ne modelio tikslumui ar sutaupymui vertinti.
+Degalų srautas iliustracinis. Skirtingų pavyzdžių l/100 km nėra kontroliuojamo sutaupymo bandymas.
+Modelis nepakeistas ir iš naujo nemokytas. Stiliaus klasė ir rekomendacijų taisyklės vertinamos atskirai.
+
+KAIP RODYTI
+
+1. Paleiskite programą per PALEISTI.cmd.
+2. Spauskite Pasirinkti CSV ir rinkitės po vieną šio aplanko failą.
+3. Spauskite Analizuoti. Į programą nekelkite rezultatų santraukos CSV ar JSON.
+4. Pradėkite nuo 01, tada rodykite 02, 05 ir 06. Pabaigai galima 07 ir vieną klaidos pavyzdį.
+
+KOKIO REZULTATO TIKĖTIS
+
+01_tolygus_vaziavimas.csv
+Tolygus važiavimas be ryškių pasirinktų įvykių.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: stebejimas.
+
+02_staigus_greitejimas.csv
+Kartojami staigaus greitėjimo epizodai; lėtėjama palaipsniui.
+Modelio klasė: 1 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: greitejimas.
+
+03_staigus_stabdymas.csv
+Greitėjama palaipsniui, periodiškai staigiai lėtėjama.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: stabdymas.
+
+04_auksti_sukiai.csv
+Tolygus greitis, bet aukšti sūkiai esant nedidelei apkrovai.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: sukiai.
+
+05_ilgas_stovejimas.csv
+Ilgesnis stovėjimas su veikiančiu varikliu; perėjimai tolygūs.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: stovejimas.
+
+06_misrus_vaziavimas.csv
+Keli skirtingi įvykiai viename įraše.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: greitejimas; stabdymas; stovejimas; sukiai.
+
+07_be_degalu_srauto.csv
+Tinkami signalai, bet degalų srautas nepateiktas: sąnaudos nerodomos.
+Modelio klasė: 0 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: stebejimas.
+
+08_trumpos_jutikliu_spragos.csv
+Dvi trumpos vidinės spragos: programa jas užpildo.
+Modelio klasė: 1 (0 – tolygesnis, 1 – intensyvesnis profilis).
+Rekomendacijos: greitejimas.
+
+KLAIDŲ PAVYZDŽIAI
+Aplanke klaidu_pavyzdziai yra tyčia netinkami failai. Parodykite, kad programa pateikia klaidą, o ne netikrą analizę.
+
+klaidu_pavyzdziai\09_per_ilga_spraga.csv
+Ilgesnė nei 2 s spraga: speed_kmh
+
+klaidu_pavyzdziai\10_pasikartojantis_laikas.csv
+Netinkamos arba pasikartojančios laiko žymos.
+
+PASTABA APIE KLASĘ
+Modelis apmokytas ankstesnio generatoriaus duomenimis. Šie specialūs scenarijai yra kitokie, todėl netikėta klasė gali parodyti modelio ribotumą. Patarimų taisyklės tikrina konkrečius signalų įvykius, todėl bendroji klasė nebūtinai sutaps su kiekvienu atskiru patarimu.
+Visi šiame apraše nurodyti rezultatai patikrinti su pateiktu išsaugotu modeliu.
