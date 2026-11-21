@@ -82,13 +82,6 @@ Ribos demonstracinės, tikriems automobiliams nevaliduotos.
 - data/features.csv – 600 agreguotų įrašų.
 - results/ – metrikos, skaidymas, prognozės, rekomendacijos ir modelis.
 
-## Prieš akademinį pateikimą
-
-Užpildyti tikrus titulinio lapo duomenis ir atsakomybių lentelę.
-Įkelti kodą į savo GitHub saugyklą ir į ataskaitą įrašyti tikrą nuorodą.
-Vieša saugykla nebuvo sukurta. Aptarti su dėstytoju, ar sintetinio
-prototipo apimtis priimtina ir ar reikia fizinio OBD registratoriaus.
-Autoriai turi suprasti ir patys patikrinti kodą bei laikytis kurso AI naudojimo tvarkos.
 
 ## Šaltiniai
 
